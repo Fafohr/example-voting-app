@@ -15,5 +15,6 @@ spec:
         app: worker
     spec:
       containers:
-      - image: dockersamples/examplevotingapp_worker
+      - image: ghcr.io/fafohr/example-voting-app-worker:latest
         name: worker
+        imagePullPolicy: Always

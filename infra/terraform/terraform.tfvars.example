@@ -1,0 +1,6 @@
+# Change this to a region where your AWS account has a default VPC.
+aws_region = "us-east-1"
+
+# Replace with your current public IPv4 address in CIDR notation, for example
+# ["198.51.100.25/32"]. Do not use 0.0.0.0/0.
+cluster_endpoint_public_access_cidrs = ["198.51.100.25/32"]

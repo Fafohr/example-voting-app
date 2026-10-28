@@ -15,8 +15,9 @@ spec:
         app: vote
     spec:
       containers:
-      - image: dockersamples/examplevotingapp_vote
+      - image: ghcr.io/fafohr/example-voting-app-vote:latest
         name: vote
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
           name: vote
