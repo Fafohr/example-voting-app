@@ -72,3 +72,4 @@ jobs:
       ### Create a PR comment with image tags and labels
       ### defaults to false
       # comment-enable: false
+# Workflow trigger check
